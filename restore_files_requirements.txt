@@ -1,0 +1,9 @@
+# Requirements for restore_from_doc.py script
+# This file contains only the dependencies needed to run the restore script independently
+
+# Core dependency for reading Word documents
+python-docx==0.8.11
+
+# Note: The restore script only needs python-docx to parse Word documents
+# All other functionality uses Python standard library modules:
+# - os, sys, re, base64, json, argparse, pathlib
